@@ -38,7 +38,7 @@ function onClickBtn(e) {
 // убирает активный класс
 function removeCardActiveClass() {
      // поиск текущий активный класс - формула
-const currentCardActive = document.querySelector('.colorList.is-active');
+const currentCardActive = document.querySelector('.is-active');
     //ищем через уточьнение, так как на проэкте может быть много is-active
 if (currentCardActive) {
         currentCardActive.classList.remove('is-active')
