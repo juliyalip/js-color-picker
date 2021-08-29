@@ -1,0 +1,19 @@
+.colorItem {
+  margin: 10px;
+  list-style: none;
+}
+
+.colorList {
+  display: flex;
+}
+
+.btn {
+  width: 120px;
+  text-align: center;
+  border-radius: 3px;
+  border: 3px solid white;
+}
+
+.is-active {
+  transform: perspective(400px) rotate(7deg);
+}
