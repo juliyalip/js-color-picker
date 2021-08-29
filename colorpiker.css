@@ -17,3 +17,8 @@
 .is-active {
   transform: perspective(400px) rotate(7deg);
 }
+
+.add {
+  background-color: white;
+  padding: 15px;
+}

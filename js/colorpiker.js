@@ -28,7 +28,9 @@ function onClickBtn(e) {
     // ищем ближайшего предка со имени класса - метод  closest('.имя класса')
     const parentCard = e.target.closest('.colorItem');
     addActiveClassParent(parentCard);
-    createBodyColor(e.target.dataset.color)
+    createBodyColor(e.target.dataset.color);
+
+    divText.style.color = e.target.dataset.color
  
 }
 
@@ -53,3 +55,8 @@ function addActiveClassParent(card) {
 function createBodyColor(color) {
    document.body.style.backgroundColor = color
 }
+
+///////////////////////////////////////
+
+const divText = document.querySelector('.add')
+
